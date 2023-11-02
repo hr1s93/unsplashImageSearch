@@ -44,6 +44,7 @@ async function searchImages() {
 
   if (searchResults.innerHTML === "") {
     showMore.style.display = "none";
+    searchResults.innerHTML = "Not Found";
   }
 }
 
